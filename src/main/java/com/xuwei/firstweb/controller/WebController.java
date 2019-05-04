@@ -22,4 +22,9 @@ public class WebController {
         return "终于成功构建springBoot项目拉";
     }
 
+    @GetMapping("goodBye")
+    public String goodBye(){
+        return "结束拉";
+    }
+
 }
