@@ -17,4 +17,9 @@ public class WebController {
         return "hello,第一个用jenkins构建的web项目";
    }
 
+   @GetMapping("sayHello")
+    public String sayHello(){
+        return "终于成功构建springBoot项目拉";
+    }
+
 }
