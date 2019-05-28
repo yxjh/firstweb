@@ -1,7 +1,7 @@
 ﻿# 获取jdk基础镜像sailing.com/base/alpine-base:latest
 FROM java:8
 VOLUME /tmp
-ADD first-web.jar first-web.jar
+ADD firstweb-0.0.1-SNAPSHOT.jar first-web.jar
 ENV JAVA_HOME /usr/lib/jvm/default-jvm
 ENV PATH ${PATH}:${JAVA_HOME}/bin
 ENV TZ=Asia/Shanghai
